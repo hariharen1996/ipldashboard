@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.team-lists {
+  width: 45%;
+  list-style: none;
+}
+.team-cards {
+  background-color: #ffffff33;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  height: 80%;
+  gap: 15px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.team-img {
+  width: 50px;
+}
+
+.team-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+
+@media screen and (max-width: 768px) {
+  .team-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .team-img {
+    width: 30px;
+  }
+  .team-heading {
+    font-size: 10px;
+  }
+  .team-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-lists {
+    margin-top: 20px;
+  }
+}

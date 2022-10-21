@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.card-container {
+  background-color: #0f172a;
+  padding: 17px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.match-img {
+  width: 40px;
+}
+
+.card-heading {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+
+.match-text {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+
+.content-heading {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+
+.content-text {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+.card-container-match {
+  display: flex;
+  border-bottom: 1px solid #475569;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 800px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container-match {
+    border: none;
+  }
+  .match-content {
+    text-align: right;
+  }
+  .card-heading {
+    font-size: 20px;
+  }
+  .match-img {
+    width: 120px;
+  }
+  .content-heading {
+    font-size: 20px;
+  }
+  .content-text {
+    font-size: 14px;
+  }
+  .match-text {
+    font-size: 15px;
+  }
+}

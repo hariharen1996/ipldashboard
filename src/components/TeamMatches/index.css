@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.team-background {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.KKR {
+  background: linear-gradient(to top, #13293b, #5755a7);
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #7db000);
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.SRH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.team-banner {
+  margin-top: 30px;
+}
+
+.banner {
+  width: 750px;
+}
+
+.match-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+}
+
+.ipl-match-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner {
+    width: 250px;
+  }
+}
